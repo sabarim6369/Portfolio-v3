@@ -2,92 +2,282 @@ import React, { useState } from 'react';
 import './Projects.css';
 
 const Projects = () => {
-  const [filter, setFilter] = useState('all');
+  const [filter, setFilter] = useState('Personal');
 
   const projects = [
     {
       id: 1,
-      title: 'Lead Flow CRM',
-      description: 'A comprehensive lead management system with analytics, call monitoring, and performance tracking. Features three panels: superadmin, admin, and telecaller for efficient staff oversight.',
-      longDescription: 'The Lead Management System streamlines lead and telecaller management with advanced analytics and real-time call monitoring. It includes role-based access control and comprehensive performance tracking.',
-      tech: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Twilio'],
-      category: 'fullstack',
-      year: '2024',
-      status: 'completed',
-      github: 'https://github.com/sabari-lead-flow',
-      live: 'https://leadflow-demo.com',
-      image: '/api/placeholder/600/400',
+      title: "Lead Flow CRM",
+      description:
+        "A comprehensive lead management system with analytics, call monitoring, and performance tracking. Features three panels: superadmin, admin, and telecaller for efficient staff oversight.",
+      longDescription:
+        "The Lead Management System streamlines lead and telecaller management with advanced analytics and real-time call monitoring. It includes role-based access control and comprehensive performance tracking.",
+      tech: ["React.js", "Node.js", "Express", "MongoDB", "Twilio"],
+      category: "Freelance",
+      year: "2024",
+      status: "completed",
+      github: "https://github.com/sabarim6369/AWS_Leadmanagementsystem.git",
+      live: "https://leadflow-demo.com",
+      image: "/api/placeholder/600/400",
       features: [
-        'Real-time call monitoring with Twilio integration',
-        'Role-based dashboard for different user types',
-        'Advanced analytics and performance metrics',
-        'Lead assignment and tracking system'
-      ]
+        "Real-time call monitoring with Twilio integration",
+        "Role-based dashboard for different user types",
+        "Advanced analytics and performance metrics",
+        "Lead assignment and tracking system",
+      ],
     },
     {
       id: 2,
-      title: 'SOKKAI E-commerce Platform',
-      description: 'Full-stack clothing e-commerce platform featuring product browsing, cart management, secure payments, user authentication, and comprehensive admin panel.',
-      longDescription: 'A modern e-commerce solution built for clothing retail with seamless user experience and robust backend management.',
-      tech: ['Next.js', 'MongoDB', 'Razorpay'],
-      category: 'fullstack',
-      year: '2024',
-      status: 'completed',
-      github: 'https://github.com/sabari-sokkai',
-      live: 'https://sokkai-store.com',
-      image: '/api/placeholder/600/400',
+      title: "SOKKAI E-commerce Platform",
+      description:
+        "Full-stack clothing e-commerce platform featuring product browsing, cart management, secure payments, user authentication, and comprehensive admin panel.",
+      longDescription:
+        "A modern e-commerce solution built for clothing retail with seamless user experience and robust backend management.",
+      tech: ["Next.js", "MongoDB", "Razorpay"],
+      category: "Freelance",
+      year: "2024",
+      status: "completed",
+      github: "https://github.com/sabarim6369/sokkaifinal.git",
+      live: "https://sokkai-store.com",
+      image: "/api/placeholder/600/400",
       features: [
-        'Secure payment integration with Razorpay',
-        'Responsive design for all devices',
-        'Order management and tracking',
-        'Admin dashboard for inventory management'
-      ]
+        "Secure payment integration with Razorpay",
+        "Responsive design for all devices",
+        "Order management and tracking",
+        "Admin dashboard for inventory management",
+      ],
     },
-    {
-      id: 3,
-      title: 'RMS-Product Training Platform',
-      description: 'Software designed specifically for company training management. Currently working on the trainer side focusing on delivering and managing training content and sessions.',
-      longDescription: 'A specialized training platform that helps streamline and manage training activities effectively for corporate environments.',
-      tech: ['React.js', 'MongoDB', 'Express.js', 'Node.js'],
-      category: 'fullstack',
-      year: '2025',
-      status: 'ongoing',
-      github: 'https://github.com/sabari-rms',
-      live: null,
-      image: '/api/placeholder/600/400',
-      features: [
-        'Interactive training content delivery',
-        'Progress tracking and analytics',
-        'Session management for trainers',
-        'Scalable architecture for enterprise use'
-      ]
-    },
+ {
+  id: 3,
+  title: "RMS - Product Training Platform",
+  description:
+    "An enterprise-grade training platform with separate panels for Admin, Trainer, and Student. I contributed to the Trainer panel, enabling content delivery, session handling, and performance evaluation.",
+  longDescription:
+    "RMS is a robust training management system tailored for corporate training environments. It includes dedicated panels for Admin, Trainer, and Student. Admins manage users and sessions, Trainers handle batch creation, content upload, feedback, and performance reviews, while Students access assigned sessions and materials. I was responsible for building and enhancing the Trainer panel — focusing on streamlined content delivery, evaluation workflows, and session reporting.",
+  tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+  category: "Intern",
+  year: "2025",
+  status: "completed",
+  github:
+    "https://github.com/RAMPeXTechnologies/RAMPeX-Management-System.git",
+  live: null,
+  image: "/api/placeholder/600/400",
+  features: [
+    "Role-based access: Admin, Trainer, Student",
+    "Trainer panel for batch and session management",
+    "Material upload and feedback collection",
+    "Student performance tracking and evaluation",
+    "Interactive content delivery system",
+    "Admin-side user and training program control",
+    "Secure authentication and session control",
+    "Enterprise-ready backend with scalable design"
+  ]
+}
+,
     {
       id: 4,
-      title: 'THOTS Social Polling App',
-      description: 'Mobile application that brings interactive polling to social media. Features scrollable poll feeds replacing traditional reels with real-time opinion sharing capabilities.',
-      longDescription: 'THOTS revolutionizes social media interaction by focusing on opinion sharing through polls in an engaging, community-driven format.',
-      tech: ['React Native', 'Node.js', 'Express', 'MongoDB'],
-      category: 'mobile',
-      year: '2025',
-      status: 'ongoing',
-      github: 'https://github.com/sabari-thots',
-      live: null,
-      image: '/api/placeholder/600/400',
+      title: "THOTS Social Polling App",
+      description:
+        "Mobile application that brings interactive polling to social media. Features scrollable poll feeds replacing traditional reels with real-time opinion sharing capabilities.",
+      longDescription:
+        "THOTS revolutionizes social media interaction by focusing on opinion sharing through polls in an engaging, community-driven format.",
+      tech: ["React Native", "Node.js", "Express", "MongoDB"],
+      category: "Freelance",
+      year: "2025",
+      status: "completed",
+      github: "https://github.com/sabarim6369/Thoughtsapp.git",
+      live: "https://drive.google.com/drive/folders/1Zc97FZM0yqXA5UzLIjlR_WDq7tbVkk1v?usp=sharing",
+      image: "/api/placeholder/600/400",
       features: [
-        'Real-time polling with instant results',
-        'Social media-style scrollable feed',
-        'Community-driven opinion sharing',
-        'Cross-platform mobile compatibility'
-      ]
-    }
+        "Real-time polling with instant results",
+        "Social media-style scrollable feed",
+        "Community-driven opinion sharing",
+        "Cross-platform mobile compatibility",
+      ],
+    },
+    {
+      id: 5,
+      title: "Milver - MILK Transport",
+      description:
+        "A transport management system for Milk Transport, including driver allocation and delivery maintenance. Designed to streamline daily delivery routes and ensure timely distribution of milk with real-time tracking.",
+      longDescription:
+        "Milver is a comprehensive milk transport management system designed to streamline operations for dairy logistics. It offers tools for driver allocation, route planning, real-time delivery tracking, and administrative oversight, ensuring timely and efficient milk distribution.",
+      tech: ["React", "Node.js", "Express", "MongoDB"],
+      category: "Freelance",
+      year: "2024",
+      status: "completed",
+      github: "https://github.com/Dharanish-AM/MILVER.git",
+      live: "https://milver-alpha.vercel.app/",
+      image: "/api/placeholder/600/400",
+      features: [
+        "Driver allocation and scheduling dashboard",
+        "Real-time delivery status tracking",
+        "Route optimization for milk delivery",
+        "Delivery history and logs for admins",
+        "User-friendly admin panel for trip management",
+        "Secure login and role-based access control",
+      ],
+    },
+    {
+      id: 6,
+      title: "4Trip - Travel Planning & Booking Companion",
+      description:
+        "A smart travel planner app allowing users to discover places, create custom itineraries, and manage bookings in one place. Integrated with maps and weather APIs for better planning.",
+      longDescription:
+        "THOTS revolutionizes social media interaction by focusing on opinion sharing through polls in an engaging, community-driven format.",
+      tech: ["ReactNative", "Node.js", "Express", "MongoDB", "Aws"],
+      category: "Freelance",
+      year: "2025",
+      status: "completed",
+      github: "https://github.com/vijayguhan10/trip.git",
+      live: "https://play.google.com/store/apps/details?id=com.vijayguhan.fourtrip",
+      image: "/api/placeholder/600/400",
+      features: [
+        "Real-time polling with instant results",
+        "Social media-style scrollable feed",
+        "Community-driven opinion sharing",
+        "Cross-platform mobile compatibility",
+      ],
+    },
+    {
+      id: 7,
+      title: "LumaAccess-V1",
+      description:
+        "A remote device access and control system enabling users to register, manage, and send commands to their desktop agents from a central dashboard.",
+      longDescription:
+        "LumaAccess is an intelligent platform that allows remote access and control of connected desktop devices through a secure interface. It features agent registration, user access management, real-time command execution (like shutdown, restart, lock screen), and live screen streaming via WebRTC, making it ideal for IT admins, educators, and enterprise users.",
+      tech: [
+        "ReactNative",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "AWS",
+        "Electron",
+        "WebRTC",
+      ],
+      category: "Personal",
+      year: "2025",
+      status: "completed",
+      github: "https://github.com/sabarim6369/lumaaccess-client.git", // ✅ (Replace this if you have LumaAccess repo)
+      live: "https://lumaaccess.vercel.app/",
+      image: "/api/placeholder/600/400",
+      features: [
+        "Electron-based desktop agent with system tray UI",
+        "Secure user-device registration and linking",
+        "Remote command execution (shutdown, restart, lock, sleep)",
+        "Live screen streaming",
+        "Cross-platform compatibility with React Native frontend",
+        "Auto-launch and persistent background execution",
+        "Cloud-hosted backend with real-time device tracking",
+      ],
+    },
+    {
+  id: 8,
+  title: "AlgoGit",
+  description:
+    "A Chrome extension that automates GitHub commits for coding platform submissions, classifies concepts, and provides instant solution summaries.",
+  longDescription:
+    "AlgoGit is a productivity tool for developers that integrates with coding platforms like LeetCode and GFG. It captures each submission, generates commit messages using LLMs, and classifies solutions by concepts (e.g., DP, sliding window). The extension auto-pushes code to GitHub or GitLab repositories with smart summaries and organized folder structures, helping users build a curated, searchable DSA portfolio.",
+  tech: [
+    "JavaScript",
+    "Chrome Extension APIs",
+ 
+    "Spring Boot",
+    "MongoDB",
+    "OpenAI/Groq LLaMA API",
+    "GitHub API",
+  ],
+  category: "Personal",
+  year: "2025",
+  status: "completed",
+  github: "https://github.com/sabarim6369/AlgoGit.git", 
+  live: "https://chromewebstore.google.com/detail/algogit-extension/your-id", // 🔁 Replace with actual Chrome Web Store link when ready
+  image: "/api/placeholder/600/400", 
+  features: [
+    "Automatically captures submissions from LeetCode, GFG, etc.",
+    "Generates commit messages and summaries using LLMs",
+    "Classifies solutions by concepts (e.g., DP, BFS, two pointers)",
+    "Organizes GitHub folder structure by platform and difficulty",
+    "Supports both GitHub and GitLab repositories",
+    "One-click setup via extension popup UI",
+    "Submission streak tracking and stats dashboard",
+    "Secure architecture with backend processing using Spring Boot",
+  ],
+},
+  {
+  id: 9,
+  title: "FeedEase",
+  description:
+    "A feedback collection system for training sessions, with an admin panel to manage sessions and automated feedback collection via student-accessible links.",
+  longDescription:
+    "FeedEase is a lightweight training feedback platform featuring a powerful admin panel to manage feedback sessions across training programs. For each session, students receive a unique link to submit feedback anonymously. On the final day of training, the system automatically switches to named feedback mode, capturing student identity alongside responses. All feedback remains accessible to the admin until the end of the training cycle, ensuring complete oversight and actionable insights.",
+  tech: [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "Tailwind CSS"
+  ],
+  category: "Intern",
+  year: "2025",
+  status: "completed",
+  github: "https://github.com/sabarim6369/feedback_management.git",
+  live: "https://feedback-management-iota.vercel.app/",
+  image: "/api/placeholder/600/400",
+  features: [
+    "Admin panel to create and manage daily feedback sessions",
+    "Link-based access for students without login",
+    "Anonymous feedback submission for each session",
+    "Automatic switch to named feedback on final day",
+    "Session-wise feedback viewing and export by admin",
+    "Secure session access using token-based validation",
+    "Feedback data stored securely in MongoDB",
+    "Responsive and clean UI"
+  ]
+},
+{
+  id: 10,
+  title: "JobSy – AI-Powered Career Assistant",
+  description:
+    "An AI-powered career assistance platform using LangChain and RAG with Ollama LLaMA3, enabling students to find jobs and internships, analyze resumes, generate cover letters, and get ATS scoring.",
+  longDescription:
+    "JobSy is a smart career assistant platform designed for students and early professionals. Built using LangChain (RAG architecture) with Ollama LLaMA3, it offers personalized career tools including resume parsing and improvement suggestions, ATS scoring, cover letter generation, and intelligent job/internship matching. The platform enhances career readiness with mock interview simulations based on resumes, job descriptions, or specific domains.",
+  tech: [
+    "React",
+    "FastAPI",
+    "LangChain",
+    "Ollama (LLaMA3)",
+    "MongoDB",
+    "Tailwind CSS"
+  ],
+  category: "Personal",
+  year: "2025",
+  status: "ongoing",
+  github: "https://github.com/sabarim6369/Jobsy.git",
+  live: "https://feedback-management-iota.vercel.app/",
+  image: "/api/placeholder/600/400",
+  features: [
+    "Resume parsing and section-wise improvement suggestions",
+    "Job and internship matching based on resume and preference",
+    "ATS scoring system to evaluate resume performance",
+    "AI-generated cover letter with download support",
+    "Mock interview module (based on resume, JD, or domain)",
+    "LangChain-powered multi-step AI workflows with LangGraph",
+    "Built-in RAG pipeline using Ollama and LLaMA3",
+    "Responsive UI with smooth UX"
+  ]
+}
+
+
+
   ];
 
   const categories = [
-    { key: 'all', label: 'All Projects' },
-    { key: 'fullstack', label: 'Full Stack' },
-    { key: 'mobile', label: 'Mobile' },
-    { key: 'frontend', label: 'Frontend' }
+     { key: 'Freelance', label: 'Freelance' },
+    { key: 'Personal', label: 'Personal' },
+   
+    { key: 'Intern', label: 'Intern' },
   ];
 
   const filteredProjects = filter === 'all' 

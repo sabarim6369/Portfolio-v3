@@ -117,7 +117,7 @@ const Experience = () => {
             <div className="ahead-goals">
               <div className="goal">
                 <span className="goal-icon">🎯</span>
-                <span>Senior Developer Role</span>
+                <span>Junior Developer Role</span>
               </div>
               <div className="goal">
                 <span className="goal-icon">🚀</span>

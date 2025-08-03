@@ -38,7 +38,7 @@ const About = () => {
               </div>
               <div className="fact">
                 <span className="fact-label">GitHub Repos:</span>
-                <span className="fact-value">50+</span>
+                <span className="fact-value">100+</span>
               </div>
             </div>
           </div>

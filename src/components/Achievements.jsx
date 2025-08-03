@@ -6,7 +6,7 @@ const Achievements = () => {
     {
       id: 1,
       title: 'KANAM Hackathon Winner',
-      year: '2025',
+      year: '2024',
       type: 'Hackathon',
       description: 'Won first place in the KANAM Hackathon, demonstrating innovative problem-solving and technical excellence.',
       icon: '🏆',
@@ -15,7 +15,7 @@ const Achievements = () => {
     {
       id: 2,
       title: 'Legend of Hack Award',
-      year: '2025',
+      year: '2024',
       type: 'Competition',
       description: 'Received the prestigious Legend of Hack award at NGP for outstanding performance in competitive programming.',
       icon: '⚡',
@@ -48,15 +48,16 @@ const Achievements = () => {
       icon: '📈',
       highlight: false
     },
-    {
-      id: 6,
-      title: 'SkillRack 600+ Problems',
-      year: 'Ongoing',
-      type: 'Coding Platform',
-      description: 'Solved 600+ problems on SkillRack platform, demonstrating strong programming fundamentals.',
-      icon: '🎯',
-      highlight: false
-    }
+  {
+  id: 6,
+  title: "Released 3 NPM Packages",
+  year: "2025",
+  type: "Open Source",
+  description: "Published three npm packages showcasing reusable utilities and tools for developers, focused on productivity and problem solving.",
+  icon: "📦",
+  highlight: true
+}
+
   ];
 
   const certifications = [
@@ -150,7 +151,7 @@ const Achievements = () => {
             </div>
           ))}
         </div>
-
+{/* 
         <div className="stats-section">
           <h3 className="stats-title">Coding Statistics</h3>
           <div className="stats-grid">
@@ -172,7 +173,7 @@ const Achievements = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="certifications-section">
           <h3 className="cert-section-title">Professional Certifications</h3>
