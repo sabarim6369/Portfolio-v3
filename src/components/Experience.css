@@ -1,0 +1,304 @@
+.experience {
+  background: rgba(5, 5, 15, 0.7);
+}
+
+.experience-content {
+  margin-bottom: 4rem;
+}
+
+.experience-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  background: rgba(20, 20, 30, 0.8);
+  padding: 2.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  backdrop-filter: blur(10px);
+  margin-bottom: 3rem;
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(100, 255, 218, 0.3);
+  box-shadow: 0 15px 35px rgba(100, 255, 218, 0.1);
+}
+
+.company-logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.logo-placeholder {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #64ffda, #4ecdc4);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: #0a0a0a;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 2px solid rgba(100, 255, 218, 0.3);
+}
+
+.experience-details {
+  flex: 1;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.position {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.duration {
+  background: rgba(100, 255, 218, 0.1);
+  color: #64ffda;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  border: 1px solid rgba(100, 255, 218, 0.3);
+}
+
+.company {
+  color: #64ffda;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem 0;
+}
+
+.experience-description p {
+  color: #8892b0;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.achievements h5,
+.tech-stack h5 {
+  color: #a8b2d1;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.achievements li {
+  color: #8892b0;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(100, 255, 218, 0.05);
+  position: relative;
+  padding-left: 1.5rem;
+  line-height: 1.5;
+}
+
+.achievements li::before {
+  content: '▶';
+  color: #64ffda;
+  position: absolute;
+  left: 0;
+  font-size: 0.8rem;
+  top: 0.85rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tech-tag {
+  padding: 0.5rem 1rem;
+  background: rgba(100, 255, 218, 0.1);
+  color: #64ffda;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  background: rgba(100, 255, 218, 0.2);
+  transform: translateY(-2px);
+}
+
+.experience-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(20, 20, 30, 0.6);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(100, 255, 218, 0.3);
+  background: rgba(20, 20, 30, 0.8);
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(100, 255, 218, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64ffda;
+  border: 1px solid rgba(100, 255, 218, 0.2);
+}
+
+.stat-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.stat-content h4 {
+  color: #ffffff;
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.stat-content p {
+  color: #8892b0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.looking-ahead {
+  margin-top: 2rem;
+}
+
+.ahead-card {
+  background: rgba(20, 20, 30, 0.8);
+  padding: 2.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.ahead-card h3 {
+  color: #64ffda;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.ahead-card p {
+  color: #8892b0;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ahead-goals {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.goal {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(100, 255, 218, 0.05);
+  padding: 1rem 1.5rem;
+  border-radius: 25px;
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  color: #a8b2d1;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.goal:hover {
+  background: rgba(100, 255, 218, 0.1);
+  transform: translateY(-3px);
+  color: #ffffff;
+}
+
+.goal-icon {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 968px) {
+  .experience-card {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .company-logo {
+    justify-content: flex-start;
+  }
+  
+  .logo-placeholder {
+    width: 60px;
+    height: 60px;
+    font-size: 0.8rem;
+  }
+  
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .position {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-stats {
+    grid-template-columns: 1fr;
+  }
+  
+  .stat-card {
+    padding: 1.25rem;
+  }
+  
+  .ahead-goals {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .goal {
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+  }
+}
