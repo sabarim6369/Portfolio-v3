@@ -7,7 +7,15 @@ const Hero = () => {
   const [titleIndex, setTitleIndex] = useState(0);
 
   useEffect(() => {
-    const titles = ['Full Stack Developer', 'Problem Solver', 'Tech Enthusiast'];
+const titles = [
+  'Full Stack Developer',
+  'Problem Solver',
+  'Tech Enthusiast',
+  'Cloud Engineer',
+  'AI Learner',
+  'Freelancer',
+  'Innovator'
+];
     const currentTitle = titles[titleIndex];
     
     if (currentIndex < currentTitle.length) {

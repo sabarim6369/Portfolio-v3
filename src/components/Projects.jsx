@@ -17,7 +17,7 @@ const Projects = () => {
       year: "2024",
       status: "completed",
       github: "https://github.com/sabarim6369/AWS_Leadmanagementsystem.git",
-      live: "https://leadflow-demo.com",
+      live: "https://aws-leadmanagementsystem.vercel.app/login",
       image: "/api/placeholder/600/400",
       features: [
         "Real-time call monitoring with Twilio integration",
@@ -38,7 +38,7 @@ const Projects = () => {
       year: "2024",
       status: "completed",
       github: "https://github.com/sabarim6369/sokkaifinal.git",
-      live: "https://sokkai-store.com",
+      live: "https://sokkaifinal.vercel.app/",
       image: "/api/placeholder/600/400",
       features: [
         "Secure payment integration with Razorpay",
@@ -56,7 +56,7 @@ const Projects = () => {
     "RMS is a robust training management system tailored for corporate training environments. It includes dedicated panels for Admin, Trainer, and Student. Admins manage users and sessions, Trainers handle batch creation, content upload, feedback, and performance reviews, while Students access assigned sessions and materials. I was responsible for building and enhancing the Trainer panel — focusing on streamlined content delivery, evaluation workflows, and session reporting.",
   tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
   category: "Intern",
-  year: "2025",
+  year: "2024",
   status: "completed",
   github:
     "https://github.com/RAMPeXTechnologies/RAMPeX-Management-System.git",
@@ -220,7 +220,7 @@ const Projects = () => {
     "Tailwind CSS"
   ],
   category: "Intern",
-  year: "2025",
+  year: "2024",
   status: "completed",
   github: "https://github.com/sabarim6369/feedback_management.git",
   live: "https://feedback-management-iota.vercel.app/",
@@ -266,6 +266,37 @@ const Projects = () => {
     "LangChain-powered multi-step AI workflows with LangGraph",
     "Built-in RAG pipeline using Ollama and LLaMA3",
     "Responsive UI with smooth UX"
+  ]
+},
+{
+  id: 11,
+  title: "Alkarmah",
+  description:
+    "A React Native-based multilingual e-commerce application with support for English and Arabic, designed for users in India and Arab countries.",
+  longDescription:
+    "Alkarmah is a serial-based e-commerce mobile application built using React Native, tailored for bilingual users. It offers seamless shopping experiences with support for both English and Arabic languages. The app is optimized for users across India and Arab nations, featuring category-based browsing, dynamic product management, localized UI, and smooth payment flow. Its admin dashboard allows real-time control of product listings and order tracking.",
+  tech: [
+    "React Native",
+    "Redux",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Firebase",
+  ],
+  category: "Freelance",
+  year: "2025",
+  status: "ongoing",
+  github: "https://github.com/vijayguhan10/Alkaramh.git", // ✅ Replace if frontend/backend split
+  image: "/api/placeholder/600/400",
+  features: [
+    "Multilingual support: English and Arabic",
+    "Localized UI with RTL support for Arabic",
+    "Product catalog with category-based navigation",
+    "Secure login, cart, and order checkout system",
+    "Real-time product and order management via admin panel",
+    "Integrated with Firebase for push notifications and auth",
+    "Optimized for users in Indian and Arab markets",
+    "Modern and responsive cross-platform UI"
   ]
 }
 
