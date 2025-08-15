@@ -298,7 +298,45 @@ const Projects = () => {
     "Optimized for users in Indian and Arab markets",
     "Modern and responsive cross-platform UI"
   ]
+},
+{
+  id: 12,
+  title: "Certaura",
+  description:
+    "A secure lab-access and assessment platform that connects to all lab systems, locks them into kiosk mode, and uses AHK-based key blocking to prevent cheating and unauthorized content access during tests.",
+  longDescription:
+    "Certaura is a specialized system designed for educational labs and training centers, enabling centralized control and secure exam environments. It connects with all lab computers over a network, allowing administrators to remotely switch them into kiosk mode for focused usage. Using AutoHotkey (AHK) scripts, the platform blocks key combinations, system shortcuts, and unauthorized actions to ensure strict test integrity and prevent digital cheating. Instructors can launch assessments, distribute protected content, and monitor all connected systems in real time. With role-based access, session scheduling, and live activity tracking, Certaura transforms standard lab setups into controlled, exam-ready environments while maintaining ease of use.",
+  tech: [
+    "React",
+    "Tailwind CSS",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Electron",
+    "WebSocket",
+    "AutoHotkey"
+  ],
+  category: "Personal",
+  year: "2025",
+  status: "ongoing",
+      live: "https://certaura.vercel.app/",
+
+  github: "https://github.com/sabarim6369/Certaura-Client.git", // Replace with actual repo link
+  image: "/api/placeholder/600/400",
+  features: [
+    "Centralized lab system connection and control",
+    "Kiosk mode for focused and restricted usage",
+    "AutoHotkey-based blocking of system shortcuts and prohibited actions",
+    "Real-time monitoring of all connected lab systems",
+    "Secure distribution of test content and resources",
+    "Live activity tracking during exams",
+    "Role-based access for admins and instructors",
+    "Session scheduling and timed assessments",
+    "Cross-platform compatibility via Electron"
+  ]
 }
+
+
 
 
 
