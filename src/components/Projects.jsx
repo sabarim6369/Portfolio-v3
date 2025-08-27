@@ -236,38 +236,7 @@ const Projects = () => {
     "Responsive and clean UI"
   ]
 },
-{
-  id: 10,
-  title: "JobSy – AI-Powered Career Assistant",
-  description:
-    "An AI-powered career assistance platform using LangChain and RAG with Ollama LLaMA3, enabling students to find jobs and internships, analyze resumes, generate cover letters, and get ATS scoring.",
-  longDescription:
-    "JobSy is a smart career assistant platform designed for students and early professionals. Built using LangChain (RAG architecture) with Ollama LLaMA3, it offers personalized career tools including resume parsing and improvement suggestions, ATS scoring, cover letter generation, and intelligent job/internship matching. The platform enhances career readiness with mock interview simulations based on resumes, job descriptions, or specific domains.",
-  tech: [
-    "React",
-    "FastAPI",
-    "LangChain",
-    "Ollama (LLaMA3)",
-    "MongoDB",
-    "Tailwind CSS"
-  ],
-  category: "Personal",
-  year: "2025",
-  status: "ongoing",
-  github: "https://github.com/sabarim6369/Jobsy.git",
-  live: "https://feedback-management-iota.vercel.app/",
-  image: "/api/placeholder/600/400",
-  features: [
-    "Resume parsing and section-wise improvement suggestions",
-    "Job and internship matching based on resume and preference",
-    "ATS scoring system to evaluate resume performance",
-    "AI-generated cover letter with download support",
-    "Mock interview module (based on resume, JD, or domain)",
-    "LangChain-powered multi-step AI workflows with LangGraph",
-    "Built-in RAG pipeline using Ollama and LLaMA3",
-    "Responsive UI with smooth UX"
-  ]
-},
+
 {
   id: 11,
   title: "Alkarmah",
@@ -334,7 +303,76 @@ const Projects = () => {
     "Session scheduling and timed assessments",
     "Cross-platform compatibility via Electron"
   ]
-}
+},
+{
+  id: 10,
+  title: "AgentDesk – LangGraph Multi-Agent AI",
+  description:
+    "AgentDesk is a LangGraph-powered multi-agent system that connects to Groq or OpenAI LLMs via user-provided API keys. It supports emotion-aware responses, dynamic search with Tavily, and memory-augmented conversations.",
+  longDescription:
+    "AgentDesk is an agentic AI platform built using LangGraph, Streamlit, and LLMs like Groq’s LLaMA3 and OpenAI GPT models. The system is structured as a StateGraph where user queries pass through multiple nodes including validation, sentiment analysis, preprocessing, decision-making, external tool usage (Tavily Search), LLM calls, postprocessing, and logging. It adapts its responses based on the detected sentiment (empathetic for negative, cheerful for positive), maintains conversational history, and dynamically decides whether to query the LLM directly or enrich context via a search tool. Users simply provide their Groq or OpenAI API keys to start interacting with intelligent agents capable of multi-step reasoning and emotion-driven replies.",
+  tech: [
+    "LangGraph",
+    "LangChain",
+    "Groq (LLaMA3)",
+    "OpenAI GPT",
+    "Tavily Search",
+    "Streamlit",
+    "Hugging Face Transformers (Sentiment Model)",
+    "Python"
+  ],
+  category: "Personal",
+  year: "2025",
+  status: "completed",
+  github: "https://github.com/sabarim6369/AgentDesk.git",
+  live: "https://agentdesk.streamlit.app/",
+  image: "/api/placeholder/600/400",
+  features: [
+    "LangGraph-powered agentic workflow with StateGraph",
+    "Supports both Groq (LLaMA3) and OpenAI GPT models",
+    "User-provided API keys for flexible LLM access",
+    "Tavily-powered real-time search integration",
+    "Sentiment analysis (positive/negative) with Hugging Face",
+    "Emotion-driven responses: empathetic, cheerful, or neutral",
+    "Memory persistence with conversation history across turns",
+    "Dynamic decision-making for search vs. direct LLM calls",
+    "Streamlit UI for chat-based interaction",
+    "Extensible agent framework for adding new tools/nodes"
+  ]
+},
+{
+  id: 13,
+  title: "JobSy – AI-Powered Career Assistant",
+  description:
+    "An AI-powered career assistance platform using LangChain and RAG with Ollama LLaMA3, enabling students to find jobs and internships, analyze resumes, generate cover letters, and get ATS scoring.",
+  longDescription:
+    "JobSy is a smart career assistant platform designed for students and early professionals. Built using LangChain (RAG architecture) with Ollama LLaMA3, it offers personalized career tools including resume parsing and improvement suggestions, ATS scoring, cover letter generation, and intelligent job/internship matching. The platform enhances career readiness with mock interview simulations based on resumes, job descriptions, or specific domains.",
+  tech: [
+    "React",
+    "FastAPI",
+    "LangChain",
+    "Ollama (LLaMA3)",
+    "MongoDB",
+    "Tailwind CSS"
+  ],
+  category: "Personal",
+  year: "2025",
+  status: "ongoing",
+  github: "https://github.com/sabarim6369/Jobsy.git",
+  live: "https://feedback-management-iota.vercel.app/",
+  image: "/api/placeholder/600/400",
+  features: [
+    "Resume parsing and section-wise improvement suggestions",
+    "Job and internship matching based on resume and preference",
+    "ATS scoring system to evaluate resume performance",
+    "AI-generated cover letter with download support",
+    "Mock interview module (based on resume, JD, or domain)",
+    "LangChain-powered multi-step AI workflows with LangGraph",
+    "Built-in RAG pipeline using Ollama and LLaMA3",
+    "Responsive UI with smooth UX"
+  ]
+},
+
 
 
 
