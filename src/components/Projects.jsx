@@ -372,6 +372,43 @@ const Projects = () => {
     "Responsive UI with smooth UX"
   ]
 },
+{
+  "id": 14,
+  "title": "DocuMedic – RAG-Powered PDF QA System",
+  "description":
+    "DocuMedic is a Retrieval-Augmented Generation (RAG) system that allows users to query PDF documents using LLMs like OpenAI GPT or Groq LLaMA3, with semantic search powered by vector databases.",
+  "longDescription":
+    "DocuMedic is a RAG-based AI platform built using LangChain, Streamlit, and LLMs such as OpenAI GPT and Groq LLaMA3. Users can upload PDF documents, which are split into semantic chunks, embedded into a vector database (Chroma or Pinecone), and queried using natural language. The system intelligently retrieves relevant context from the documents before generating answers via LLMs. It also maintains conversational memory to provide context-aware replies and supports dynamic decision-making for when to rely on retrieved documents versus direct LLM responses.",
+  "tech": [
+    "LangChain",
+    "LangGraph",
+    "Groq (LLaMA3)",
+    "OpenAI GPT",
+    "Pinecone / Chroma Vector DB",
+    "Streamlit",
+    "Hugging Face Transformers (optional)",
+    "Python"
+  ],
+  "category": "Personal",
+  "year": "2025",
+  "status": "completed",
+  "github": "https://github.com/sabarim6369/DocuMedic.git",
+  "live": "https://documedic.streamlit.app/",
+  "image": "/api/placeholder/600/400",
+  "features": [
+    "RAG-based PDF question-answering pipeline",
+    "Supports both Groq (LLaMA3) and OpenAI GPT models",
+    "Users can upload PDFs to create searchable knowledge bases",
+    "Semantic search using Pinecone or Chroma vector stores",
+    "Memory persistence for context-aware multi-turn conversations",
+    "Dynamic decision-making: retrieve documents vs. direct LLM response",
+    "Streamlit UI for chat-based interaction",
+    "Extensible framework for adding new document sources or tools",
+    "Embeddings-based retrieval for accurate context generation",
+    "Optimized for fast, real-time document Q&A"
+  ]
+}
+
 
 
 
