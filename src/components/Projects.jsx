@@ -171,6 +171,40 @@ const Projects = () => {
         "Cloud-hosted backend with real-time device tracking",
       ],
     },
+{
+  id: 16,
+  title: "FlexLB",
+  description:
+    "A lightweight, high-performance load balancer designed for distributing traffic across multiple servers with reliability and speed.",
+  longDescription:
+    "FlexLB is a flexible load balancing solution built to efficiently manage and distribute incoming traffic across multiple backend servers. It supports popular algorithms like round-robin, least-connections, and IP-hash, ensuring optimal resource usage and minimal downtime. With built-in health checks, automatic failover, and simple configuration, FlexLB provides developers and system administrators with an easy-to-use yet powerful tool for improving server performance and availability.",
+  tech: [
+"Bun",
+"Hono",
+"TypeScript",
+"React",
+"Vite",
+"Tailwind CSS",
+"RabbitMQ",
+  ],
+  category: "Personal",
+  year: "2025",
+  status: "completed",
+  github: "https://github.com/sabarim6369/Flexi-LB", // ✅ update if needed
+  live: "https://flexilb.vercel.app/", // ✅ demo URL if applicable
+  image: "/api/placeholder/600/400",
+  features: [
+    "Load balancing across multiple servers",
+    "Supports round-robin, least-connections, and IP-hash algorithms",
+    "Automatic health checks and failover handling",
+    "Lightweight core written in Go for speed and efficiency",
+    "Easy setup with simple configuration options",
+    "TLS/SSL termination for secure connections",
+    "Monitoring dashboard for traffic and server status",
+  ],
+}
+
+,
     {
   id: 8,
   title: "AlgoGit",
